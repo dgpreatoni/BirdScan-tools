@@ -16,4 +16,5 @@ list(echoData = echoData,
 
 The `extractDBData()` function by default tries to load data from a file named `DB_Data_<dbName>.Rdata` in the `dbDataDir` directory.
 Database connection thus must be explicitly asked for (specifying `forceToExtractDataFromDatabase==TRUE` in the `extractDBData()` call.
-This is handy, since it is faster and makes it plssible to work uncoupled from the datanase server. 
+This is handy, since it is faster and makes it possible to work uncoupled from the database server, and also allows having data coming from more than a single database.
+
